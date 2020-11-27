@@ -71,8 +71,6 @@ def main():
             except ValueError:
                 print('Ensure you enter a valid prediction')
            
-        print(roll_val)
-        
         if roll_val == prediction:
             print(f'Congratulations You predicted right in {current_no_attempt+1} attempts!! 🎉🎉')
             current_no_attempt = 0
